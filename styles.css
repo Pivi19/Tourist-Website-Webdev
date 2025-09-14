@@ -1,0 +1,219 @@
+/*Student ID : 25011322*/
+html{
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+
+.logo_title{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    flex-wrap: nowrap;
+}
+
+h1{
+
+    width:428px;
+    height: 114px;
+    font-family:cursive;
+    font-weight:bolder;
+    line-height: 2.5;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap; /*ensures that the text doesnt fall under the other when the screen-size is reduced  */
+
+}
+
+nav{
+    font-size: 23px;
+    background-color:#006400;
+    height: 30px;
+    margin-top: 8px;
+    padding-top: 7px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+a{
+    color: #FFFFFF;
+    margin: 45px 45px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkgreen;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.funfact{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+
+
+footer{
+    padding: 20px;
+    background-color: #006400;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+button{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-color: black;
+    border-style: double;
+    background-color:#008080;
+    color: #FFFFFF;
+}
+
+
+.logo{
+    width:200px;
+    height: 100%;
+}
+
+.activities li{
+    position: relative; /* To show the point where the boxes should appear*/
+    width:600px;
+}
+
+.hiddeninfo{
+    position: absolute; /* to make sure i can position this the place i need*/
+    display: none;
+    width: 310px;
+    height:200px;
+    background-color:lightseagreen;
+    border-radius: 9px;
+    padding: 10px;
+    left:280px
+}
+.activities li:hover .hiddeninfo{
+    display: block;
+}
+
+img{
+    width:300px;
+    height:200px;
+}
+
+.scenic{
+    width:700px;
+    height:300px;
+}
+
+h4{
+    font-size: 45px;
+}
+
+.boxes{
+    width:100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+.Infobox_1,.Infobox_2,.Infobox_3{
+    width: 30%;
+    height: 270px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #006400;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.about_us{
+    margin-top: -45px;
+}
+
+.intropara{
+    width:95%;
+    margin-top: 45px;
+    font-size: 30px;
+    border: 2px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #006400;
+    padding: 15px;
+}
+
+form{
+    width: 95%;
+    font-size: 20px;
+    border-width:5px;
+    border-style: solid;
+    border-color: #006400;
+    padding: 30px;
+}
+
+.contact_detail{
+    margin-top: 40px;
+    width:400px;
+    border-width:5px;
+    border-style: solid;
+    border-color: #006400;
+    padding:10px;
+}
+
+input{
+    width:75%;
+}
+
+textarea{
+    width:81%;
+}
+
+.maparea{
+    margin:20px;
+}
+
+.gallery{
+    height:100%;
+    gap:10px;
+}
+
+.galleryimages img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.galleryimages img:hover {
+  transform: scale(1.05);
+}

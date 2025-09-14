@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang = "en"> <!--To show that the website is in engilsih-->
+
+    <head> 
+
+        <link rel="icon" type="image/png" href="images/apple-touch-icon.png">
+        
+        <title> 
+            New Zealand Tourism
+        </title>
+
+
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> <!--To make it mobile friendly -->
+
+        <link href = "styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header> 
+            <div class ="logo_title">
+            <div class = "logo">
+            <img src = "images/websitelogo.png" alt="Logo">
+            </div>
+
+            <h1> Kiwi Trails and Tales </h1>
+            </div>
+
+             <nav> 
+                <a href = "home.html"> Home</a>
+                <a href = "about.html"> About</a>
+                <a href = "contact.html"> Contact</a>
+                <a href = "gallery.html"> Gallery</a>
+            </nav>
+
+        </header>
+
+        <p class="intropara"> 
+            "We'd love to hear from you! Whether it's feedback, 
+            questions, or collaboration ideas, drop us a message below."
+        </p>
+
+        <form id="contactForm">
+            <label for="name"> Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <br>
+            <br>
+
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="Enter your email address">
+
+            <br>
+            <br>
+
+            <label for="message"> Message:</label> <br>
+            <textarea id="message" rows="5" cols="30" placeholder="Type your message here" > </textarea>
+
+            <br>
+            <br>
+            
+            <button type="submit"> Submit </button>
+        </form>
+
+        <div class ="contact_detail">
+            <p>
+                Contact: +64 12 345 6789 
+                <br>
+                Email: kiwitrailandtales@gmail.comes
+                <br>
+                Address: No.12, Oteha Vally Road, Auckland 0638
+            </p>
+        </div>
+
+        <section class="maparea">
+            <h2> Find Us</h2>
+            <div class =" map">
+                <iframe
+                src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019962485904!2d174.76333241530933!3d-36.84846097993941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47f8c59c21f9%3A0x500ef6143a2d9c0!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2sus!4v1693542420000!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0";>
+                </iframe>
+            </div>
+        </section>
+        
+    </body>
+
+    <script src = "script.js"> </script>
+
+        <footer> 
+
+            Created By: Pivithura Guruge <br>
+            Student ID : 25011322
+
+        </footer>
+
+
+</html>
